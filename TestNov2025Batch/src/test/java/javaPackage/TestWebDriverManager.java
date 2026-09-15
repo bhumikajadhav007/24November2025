@@ -16,8 +16,7 @@ public class TestWebDriverManager {
 		WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-        driver.get("https://paytm.com");
+        
      // Pull Request Practice
 	}
 
